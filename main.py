@@ -7,7 +7,7 @@ import os, wget
 api_id = int(os.environ.get("APP_ID"))
 api_hash = os.environ.get("API_HASH")
 token = os.environ.get("TOKEN")
-app = Client("yt", app_token=token, api_id = api_id, api_hash = api_hash)
+app = Client("yt", bot_token=token, api_id = api_id, api_hash = api_hash)
 
 
 @app.on_message(ay.command("start"))
