@@ -95,4 +95,4 @@ video = {"format": "best","keepvideo": True,"prefer_ffmpeg": False,"geo_bypass":
 audio = {"format": "bestaudio","keepvideo": False,"prefer_ffmpeg": False,"geo_bypass": True,"outtmpl": "%(title)s.mp3","quite": True}
 
 print("البوت اشتغل غور")
-bot.run()
+app.run()
